@@ -1,0 +1,353 @@
+html{
+    background-color: #F4F4F4;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.1em;
+}
+
+header {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Typography Styles */
+h1 {
+    font-size: 56px;
+    line-height:62px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 48px;
+    line-height:53px;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 40px;
+    line-height:44px;
+    margin-top: 0;
+}
+
+h4 {
+    font-size: 32px;
+    line-height:35px;
+    margin-top: 0;
+}
+
+h5 {
+    font-size: 24px;
+    line-height:26px;
+    margin-top: 0;
+}
+
+h6 {
+    font-size: 20px;
+    line-height:22px;
+    margin-top: 0;
+}
+
+.largeAa {
+    font-size: 150px;
+    font-weight: 700;
+    color: #CACACA;
+    line-height: 1.1em;
+    margin-left: -25px;
+}
+
+.sectionLabel{
+    font-size: 24px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.InterRegular {
+    font-weight: 300;
+}
+
+.InterBold {
+    font-weight: 700;
+}
+
+.largeText {
+    font-size: 20px;
+}
+
+.mediumText {
+    font-size: 18px;
+}
+
+.normalText {
+    font-size: 16px;
+}
+
+.smallText {
+    font-size: 14px;
+}
+p {
+    margin-top:0;
+    margin-bottom: 2px;
+}
+
+/* Container Styles */
+.sectionContainer {
+    width: 80%;
+    margin: 30px;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.sectionFlex {
+    display:flex;
+}
+.sectionColumnLeft {
+    justify-self: start;
+    width: 25%;
+
+}
+.sectionColumnRight {
+    width: 80%;
+
+}
+/* Table Style */
+.tableStyle {
+    text-align: left;
+    justify-content: space-between;
+    width: 100%;
+}
+td {
+    vertical-align: top;
+}
+
+/* Color Palette */
+.colorSwatchFlexBox {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+
+}
+.colorContainer {
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 30px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+
+}
+
+.swatch {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #666666;
+    border-radius: 8px;
+}
+
+.swatchSmall {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #666666;
+    border-radius: 8px;
+}
+
+.hexCode{
+    padding-top: 15px;
+    text-align: center;
+    border: none;
+}
+
+.colorName{
+    font-weight: 700;
+    color: #394550;
+}
+
+.gesso {
+    background-color: #F4F4F4;
+}
+
+.slate {
+    background-color: #394550;
+}
+.navyGray {
+    background-color: #4C6277;
+}
+
+.poolLight {
+    background-color: #6DB4B0;
+}
+
+.poolMedium {
+    background-color: #2E8C87;
+}
+
+.neutralGray {
+    background-color: #CACACA;
+}
+
+.info {
+    background-color: #2B9AD9;
+}
+
+.success {
+    background-color: #63A459;
+}
+
+.warning {
+    background-color: #FCB730;
+}
+
+.error {
+    background-color: #E3653D;
+}
+
+/* Button Styles */
+.buttonSet {
+    display: flex;
+    justify-self: start;
+    flex-direction: column;
+    width: 50%;
+}
+
+.buttonSetRight {
+    width: 50%;
+}
+
+.buttonStatic {
+    background-color: #FCFCFC;
+    border: #394550 1px solid;
+    border-radius: 5px;
+    color: #394550;
+}
+
+.buttonHover {
+    background-color: #6DB4B0;
+    color: #FCFCFC;
+    border-radius: 5px;
+}
+
+.buttonPressed {
+    background-color: #2E8C87;
+    color: #FCFCFC;
+    border-radius: 5px;
+}
+
+.buttonActive {
+    background-color: #4C6277;
+    color: #FCFCFC;
+    border-radius: 5px;
+}
+
+.buttonInactive {
+    background-color: #FCFCFC;
+    border: #394550 1px solid;
+    color: #394550;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
+.buttonSmall {
+    display: inline-block;
+    padding: 15px;
+    margin: 2px 0px 10px 0px;
+    width: 125px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.buttonNormal {
+    display: inline-block;
+    padding: 15px;
+    margin: 2px 0px 10px 0px;
+    width: 150px;
+    text-align: center;
+}
+
+.buttonMedium {
+    display: inline-block;
+    padding: 15px;
+    margin: 2px 0px 10px 0px;
+    width: 175px;
+    text-align: center;
+}
+
+.buttonLarge {
+    display: inline-block;
+    padding: 15px;
+    margin: 2px 0px 10px 0px;
+    width: 200px;
+    text-align: center;
+}
+
+/* Inspo Stylea */
+#inspo1 {
+    width: 100%;
+}
+#inspo2 {
+    width: 55%;    
+
+}
+#inspo3 {
+    width: 45%;
+    float: right;
+}
+#inspo4 {
+    width: 100%;
+}
+
+/* Moodboard Styles */
+.moodSquare {
+    width: 250px;
+    height: 250px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #F4F4F4;
+  }
+  
+
+#mood1{
+    background-image: url("../images/oleg-laptev-7jQh3EiS8Bs-unsplash.jpg");
+    background-size: cover;
+}
+
+#mood2{
+    background-image: url("../images/luke-stackpoole-5Qqkjn4PFPA-unsplash.jpg");
+    background-size: cover;
+}
+
+#mood3{
+    background-image: url("../images/nadiya-ploschenko-pb4HW4KghiM-unsplash.jpg");
+    background-size: cover;
+}
+
+#mood4{
+    background-image: url("../images/michael-c-pMWECyRaZLE-unsplash.jpg");
+    background-size: cover;
+}
+
+#mood5{
+    background-image: url("../images/axville-BKs_bYusqjU-unsplash.jpg");
+    background-size: cover;
+}
+
+#mood6{
+    background-image: url("../images/david-van-dijk-3LTht2nxd34-unsplash.jpg");
+    background-size: cover;
+    background-position: right;
+}
+
+#mood7{
+    background-image: url("../images/bia-andrade-PO8Woh4YBD8-unsplash.jpg");
+    background-size: cover;
+}
+
+#mood8{
+    background-image: url("../images/bench-accounting-nvzvOPQW0gc-unsplash.jpg");
+    background-size: cover;
+
+}
+
+#mood9{
+    background-image: url("../images/tom-morel-_BfaUjOgjdo-unsplash.jpg");
+    background-size: cover;
+}
+
