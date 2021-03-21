@@ -295,15 +295,26 @@ td {
 }
 
 /* Moodboard Styles */
+.moodContainer {
+    display: inline-block;
+    background-color: #FFFFFF;
+}
 
 .moodSquare{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
-    grid-auto-rows: 1fr;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 300px);
+    grid-gap: 20px;
   }
+
+.moodCell{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
   
+    /* old code
+
   .moodSquare::before {
     content: '';
     width: 0;
@@ -318,14 +329,12 @@ td {
   }
   
   /* Just to make the grid visible */
-  
+  /* old code
   .moodSquare > * {
     background: rgba(0,0,0,0.1);
     border: 1px white solid;
   }
 
-
-/* old code
 .moodSquare {
     width: 250px;
     height: 250px;
