@@ -173,11 +173,11 @@ td {
 }
 
 .poolLight {
-    background-color: #6DB4B0;
+    background-color: #459994;
 }
 
 .poolMedium {
-    background-color: #2E8C87;
+    background-color: #19746F;
 }
 
 .neutralGray {
@@ -220,13 +220,13 @@ td {
 }
 
 .buttonHover {
-    background-color: #6DB4B0;
+    background-color: #459994;
     color: #FCFCFC;
     border-radius: 5px;
 }
 
 .buttonPressed {
-    background-color: #2E8C87;
+    background-color: #19746F;
     color: #FCFCFC;
     border-radius: 5px;
 }
